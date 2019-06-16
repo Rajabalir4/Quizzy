@@ -1,0 +1,43 @@
+html,body{
+	height: 100%; width: 100%; margin: 0;
+}
+.messageBlock{
+	box-sizing: border-box;
+	display: block;
+	margin-top:20%; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+.content{
+	box-sizing: border-box;
+	display: block;
+	margin-top:10%; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	line-height: 40px;		
+}
+.navigation{
+	text-align: right;
+	padding-right: 80px; 
+}
+.quizz{
+	margin-left:50px;
+}
+.wrongAnswer{
+	color: red;
+}
+.correctAnswer{
+	color: green;
+}
+.result{
+	font-size: 3em;
+}
+main form ul{
+	list-style-type: none;
+}
